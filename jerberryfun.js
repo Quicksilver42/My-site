@@ -41,6 +41,8 @@ function Main14(){
     document.getElementById("page").innerHTML = "<br><br><div class = 'point'><a href='index.html'> Intro Page </a></div><br><div class = 'point'><a href='calc.html'> Calculator </a></div><br><div class = 'point'><a href='introweb.html'>Introweb</a></div><br><div class = 'point'><a href='checkers.html'>checkers</a></div> <br><Br><div class = 'point'><button onclick='Main15()'; >Vindinium Bot</button></div><br><div class = 'point'> <a href='CLICKME.html'>Genius Project</a></div> ";
 }
 function Main15(){
-    document.getElementById("page").innerHTML = "<a href = 'http://vindinium.org'; id = 'linkHover'><img src='https://docs.google.com/drawings/d/1HyQ2UjhfXXUqnn5zDtYW5i01MwhPWStb_7l3JBpgZMQ/pub?w=960&amp;h=398'; width = '500px'></a><br><p id= yh2>MY BOT</p><img src = 'https://docs.google.com/drawings/d/1xhTB3qPzhWzV8QkLfjF_HlqJE3YD7I37xypICPiPOxY/pub?w=991&h=742'><img src = 'https://docs.google.com/drawings/d/1srSQPiVLkoQrAh1ztxOHN63oTpKtxph78u17CX33PDw/pub?w=956&h=501'>";
+    document.getElementById("page").innerHTML = "<a href = 'http://vindinium.org'; id = 'linkHover'><img src='https://docs.google.com/drawings/d/1HyQ2UjhfXXUqnn5zDtYW5i01MwhPWStb_7l3JBpgZMQ/pub?w=960&amp;h=398'; width = '500px'></a><br><p id= yh2>MY BOT</p><img src = 'https://docs.google.com/drawings/d/1xhTB3qPzhWzV8QkLfjF_HlqJE3YD7I37xypICPiPOxY/pub?w=991&h=742'><img src = 'https://docs.google.com/drawings/d/1srSQPiVLkoQrAh1ztxOHN63oTpKtxph78u17CX33PDw/pub?w=956&h=501'><br> <button onclick= 'Main16()';>Victories --> </button>";
 }
-
+function Main16(){
+    document.getElementById("page").innerHTML = "<h2>Victory 1</h2><br><img src = 'https://docs.google.com/drawings/d/1DYKt4Aq207BZJL0LDgDvkKpOhR3HLSbrdtQyNRtj-LE/pub?w=961&h=539'><br><br><h2> Victory 2</h2><br> <img src = 'https://docs.google.com/drawings/d/18LaLCaHY-Vi7GVSJyV0NeEiNZjn5QaJ4AiIsbWl7t-I/pub?w=960&h=539'><br><br><h2> Victory 3 </h2><br><img src = 'https://docs.google.com/drawings/d/1vWu1-9uO2QsmI0nlG6zmNHYBNiIgnuG2FDl7m9uGihM/pub?w=961&h=477'><br> <button onclick= 'Main15()';><-- Back </button>";
+}
