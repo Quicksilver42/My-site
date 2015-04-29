@@ -1,0 +1,56 @@
+body {
+    background-color:#71A6FF;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.navBar{
+    margin-top:.4em; 
+    height:2.4em; 
+    width:8em; 
+    font-size:1em; 
+    border-top-left-radius:1em; 
+    border-top-right-radius: 1em; 
+    background-color:#356AE8; 
+    border:blue; 
+    margin-left:.4em; 
+    font-weight:bold;
+    cursor:pointer;
+}
+.navBar:hover {
+    transform:scale(1.1);
+    background-color:#2B60DE;
+}
+#instructions {
+    width:450px;
+    height:65px;
+    background-color:white;
+    border:2.5px groove blue;
+}
+#Annie{
+    cursor:pointer;
+}
+#everything {
+    background-color:#ADD8E6;
+    width:500px;
+    height:300px;
+    border:1px solid black;
+}
+#player {
+    border-radius:50%;
+    background-color:black;
+    width:50px;
+    height:50px;
+    background-color: red;
+}
+#floor {
+    background-color:green;
+    width:500px;
+    height:25px;
+    position:absolute;
+    top:440px;
+    border:1px solid black;
+    left:8px;
+}

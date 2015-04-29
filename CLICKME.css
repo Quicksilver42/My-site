@@ -1,0 +1,78 @@
+
+.swaggy{
+  width:900px;
+background-color:rgba(192,192,193,0.25);;
+    border-radius: 20px;
+    margin:0 auto;
+    margin-top:20px;
+    padding:20px;
+      box-shadow:         0px 3px 12px 0px black, inset 0 0 3px #ffffff;
+    
+}
+body{
+  background-image:url(http://desktop.freewallpaper4.me/view/original/2109/snowy-mountain-night.jpg);
+}
+
+div.swaggy{
+    color:white;
+    font-size:20px;
+}
+button{
+    
+    background-color:grey;
+    border:none;
+    border-radius:6px;
+    transition: all 0.4s ease;
+    color:white;
+    height:30px;
+    width:115px;
+    font-size:50px;
+    font-size:11px;
+}
+button:hover{
+    -webkit-transform: scale(1.2); 
+}
+#yolo{
+color:black;
+font-size:10px;
+}
+#author{
+text-decoration:none;
+
+    color:#C8C8C8;
+    text-align:Center;
+}
+
+#hi{
+    
+}
+#hello{
+    font-size:10px;
+    height:30px;
+    width:100px;
+}
+#prius{
+    font-size:40px;
+    color:white;
+}
+#coding{
+    
+    border-radius:10px;
+}
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity:0.2;
+       
+}
+.snowflake {
+ opacity:100;
+    padding-left: 10px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 1px;
+    line-height: 18px;
+    position: fixed;
+    color: #FFFFFF;
+   
+}
