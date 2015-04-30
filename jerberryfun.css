@@ -1,26 +1,26 @@
-body{
+body {
     font-size:15px;
     background-color:#72CBDB;
-     cursor: -webkit-grab;
+    cursor: -webkit-grab;
 }
-img{
+img {
     text-align:center;
 }
-#img1{
+#img1 {
     width:220px;
 }
-div{
+div {
     text-align:center;
     padding: 6px;
-    padding-left:  15px;
+    padding-left: 15px;
     padding-right: 15px;
-   background-color:white;
+    background-color:white;
     border-radius: 20px;
 }
-h3{
+h3 {
     text-align:center;
 }
-button{
+button {
     font-family:arial;
     box-shadow:0px 3px 12px 0px #bcbcbc, inset 0 0 3px #ffffff;
     background-color:#72CBDB;
@@ -31,72 +31,71 @@ button{
     height:25px;
     font-size:11px;
 }
-button:hover{
+button:hover {
     cursor: -webkit-grabbing;
-    -webkit-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
     background-color:#0099FF;
 }
-#by{
+#by {
     font-size:8.5px;
 }
-#ipad{
+#ipad {
     width:250px;
     border-radius:10px;
 }
-a{
+a {
     color:black;
 }
-a:hover{
-     cursor: -webkit-grabbing;
-     color:white;
+a:hover {
+    cursor: -webkit-grabbing;
+    color:white;
 }
-#img3{
+#img3 {
     float:right;
 }
-#img4{
+#img4 {
     float:left;
 }
-#share{
-     transition: all 0.4s ease;
+#share {
+    transition: all 0.4s ease;
 }
-#share:hover{
-       cursor: -webkit-grabbing;
-    -webkit-transform: scale(1.4); 
+#share:hover {
+    cursor: -webkit-grabbing;
+    -webkit-transform: scale(1.4);
 }
-p{
-    
+p {
     border-radius:10px;
     color:black;
     background-color:#72CBDB;
 }
-#by{
+#by {
     color:black;
     background-color:white;
 }
-#gangnam{
+#gangnam {
     width:200px;
     border-radius:10px;
 }
-#oop{
+#oop {
     font-size:15px;
     font-weight:normal;
 }
-#whe{
+#whe {
     font-weight:normal;
     font-size:10px;
 }
-#gh{
+#gh {
     font-size:10px;
     font-weight:normal;
 }
-.jeremy{
+.jeremy {
     font-size:10px;
     font-weight:normal;
 }
-text{
+text {
     color:blue;
 }
-.point{
+.point {
     font-family:arial;
     box-shadow: 0px 3px 12px 0px #bcbcbc, inset 0 0 3px #ffffff;
     background-color:#72CBDB;
@@ -107,16 +106,97 @@ text{
     height:25px;
     font-size:11px;
 }
-.point:hover{
+.point:hover {
     cursor: -webkit-grabbing;
-    -webkit-transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
     background-color:#0099FF;
-}  
-   
-#yh2{
+}
+#yh2 {
     font-size:40px;
 }
-#linkHover{
-       cursor: -webkit-grabbing;
-    -webkit-transform: scale(1.5); 
+#linkHover {
+    cursor: -webkit-grabbing;
+    -webkit-transform: scale(1.5);
+}
+.flip-container {
+    -webkit-perspective: 1000;
+    text-align:center;
+    perspective: 1000;
+    border: 1px solid #ccc;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+    width: 350px;
+    height: 300px;
+}
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.front {
+    background: url(http://fc00.deviantart.net/fs71/f/2012/343/e/8/profile_picture_by_villdjack-d5nhjdd.jpg) 0 0 no-repeat;
+    z-index: 2;
+}
+.back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #f8f8f8;
+}
+.front .name {
+    font-size: 2em;
+    display: inline-block;
+    background: rgba(33, 33, 33, 0.9);
+    color: #f8f8f8;
+    font-family: Courier;
+    padding: 5px 10px;
+    border-radius: 5px;
+    bottom: 60px;
+    left: 25%;
+    position: absolute;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.back-logo {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    width: 160px;
+    height: 117px;
+    background: url() 0 0 no-repeat;
+}
+.back-title {
+    font-weight: bold;
+    color: #00304a;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    right: -180;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.05em #acd7e5;
+    font-family: Courier;
+    font-size: 1.5em;
+}
+.back p {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: -180;
+    text-align: center;
+    padding: 0 20px;
+    font-family: arial;
+    line-height: 2em;
 }

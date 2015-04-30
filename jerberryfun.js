@@ -10,7 +10,7 @@ function Main4() {
 document.getElementById("page").innerHTML="<p> And what does Jer Berry Beta do? It displays a centipede that crawls across the screen.It is very simple, yet <br> in the past,  Jer Berry has been missused by being removed or deleted. To make sure that Jer Berry is used <br> responsibly, we use a keylogger to monitor every key that you press. This is so that we <strike>can obtain your bank <br> account and credit number number</strike>  monitor your usage of Jer Berry. If we find that you are going to <br> delete Jer Berry, we will <strike>hack into your system and turn every block of text to read 'prius'</strike> have you fill out <br> a survey asking what we could do better.</p>.";
 }
 function Main5() {
-document.getElementById("page").innerHTML="<p>Our CEOs are the almighty totalitarian rulers Jeremy Chang-Yoo (AKA God) and Dexter Hamilton.Others <br> include Jeremy Renners  (who played hawkeye in the avengers),  Jeremy Irons, Jeremy Lin, Jeremy Shada <br> (plays 'Finn' in adventure time),  Jeremy Clarckson (Journalist) and last but not least Jeremiah the prophet. <br>I need to fill up this page, so here is a cat doing the famous 'Gangnam style' <br> <img src = 'http://38.media.tumblr.com/tumblr_m9hbpdSJIX1qhy6c9o1_400.gif' ; id='gangnam'./> </p> ";
+document.getElementById("page").innerHTML="<p>Our CEOs are the almighty totalitarian rulers Jeremy Chang-Yoo (AKA God) and Dexter Hamilton.Others <br> include Jeremy Renners  (who played hawkeye in the avengers),  Jeremy Irons, Jeremy Lin, Jeremy Shada <br> (plays 'Finn' in adventure time),  Jeremy Clarckson (Journalist) and last but not least Jeremiah the prophet. <br>I need to fill up this page, so here is a cat doing the famous 'Gangnam style' <br> <img src = 'http://38.media.tumblr.com/tumblr_m9hbpdSJIX1qhy6c9o1_400.gif' ; id='gangnam'./> </p> <br><br><br> For more about Jeremy Chang-Yoo </p> <button onclick= 'Main17()';>Click here </button>";
 }
 function Main6() {
 document.getElementById("page").innerHTML="<p>Still not satisfied with what you have seen? Here are a couple reviews from some satisfied customers<br>(with some profanity edited out)<br><ul><li> '<strike>Don't</strike> click on the add, it gives you <strike>a f**kin virus.'</strike> access to one of the most respected online companies <br> on the web.</li><li>'This company single-handedly <strike>bankrupted 12 different coporations by hacking into their mainframes.'<br></strike> made my computer more secure and user-friendly.</li><li>'They got access <strike>to my bank account</strike> to my savings, and <strike>stole $500,000.'</strike> helped me manage my money.</li><li>'The CEO's are <strike>crackheads if they think they can get away with this.'</strike> gods that I bow down to worship every day.</li></ul><br>' </p>";
@@ -35,7 +35,7 @@ function Main12() {
 document.getElementById("page").innerHTML="<img src = 'https://docs.google.com/drawings/d/1rHk1FyTr037XIyqulJF3MEwj3RyCumFVP0-ytuhASxc/pub?w=960&h=720' ; width = '600px' ; border-radius='10px'>";
 }
 function Main13() {
-document.getElementById("page").innerHTML="On a scale of 1-10, how much crack was Summit Shasta on?";
+document.getElementById("page").innerHTML="On a scale of 1-10, how much crack was Summit Shasta on in the month of December 2014?";
 }
 function Main14(){
     document.getElementById("page").innerHTML = "<br><br><div class = 'point'><a href='index.html'> Intro Page </a></div><br><div class = 'point'><a href='calc.html'> Calculator </a></div><br><div class = 'point'><a href='introweb.html'>Introweb</a></div><br><div class = 'point'><a href='checkers.html'>checkers</a></div> <br><Br><div class = 'point'><button onclick='Main15()'; >Vindinium Bot</button></div><br><div class = 'point'> <a href='CLICKME.html'>Genius Project</a></div> ";
@@ -45,4 +45,7 @@ function Main15(){
 }
 function Main16(){
     document.getElementById("page").innerHTML = "<h2>Victory 1</h2><br><img src = 'https://docs.google.com/drawings/d/1DYKt4Aq207BZJL0LDgDvkKpOhR3HLSbrdtQyNRtj-LE/pub?w=961&h=539'><br><br><h2> Victory 2</h2><br> <img src = 'https://docs.google.com/drawings/d/18LaLCaHY-Vi7GVSJyV0NeEiNZjn5QaJ4AiIsbWl7t-I/pub?w=960&h=539'><br><br><h2> Victory 3 </h2><br><img src = 'https://docs.google.com/drawings/d/1vWu1-9uO2QsmI0nlG6zmNHYBNiIgnuG2FDl7m9uGihM/pub?w=961&h=477'><br> <button onclick= 'Main15()';><-- Back </button>";
+}
+function Main17(){
+    document.getElementById("page").innerHTML = "<div id= 'centerDiv'><div class='flip-container' ontouchstart='this.classList.toggle('hover');'><div class='flipper'><div class='front'><span class='name'>Jeremy Chang-Yoo</span></div><div class='back'><div class='back-logo'></div><div class='back-title'>Jeremy</div><p>Jeremy is currently 16 years young, also Born in raised in Pacifica, California. His interests include: running, basketball and Team Fortress 2.If you have any feedback please message him on steam (his name is 'syme'), or send him an email (see the contacts page). </p></div></div></div></div>";
 }
