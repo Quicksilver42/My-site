@@ -26,5 +26,5 @@ function Main9(){
     document.getElementById("test").innerHTML = "There are many different programming languages besides the few that I have listed. In fact there are 256 programming languages according to dzone.com. Many are distinct from the other because they focus on different aspects of programming. <br> Some well known other programming languages include Pyhton,Ruby and C# <br> <imgs src = 'http://www.lundalogik.se/files/2015/02/python.jpg' ; width = '100px'><img src = 'http://allisnow.com/images/themes/logos/computer-programming-languages/w/php-logo.png'; width = '100px'><br> There are many ways to approach coding and I have only shown a few. I encourage you to try your coding no your own time and see how far you can get. ";
 }
 function Main10(){
-    document.getElementById("test").innerHTML = "HTML consist of 'tags', where each tag has a specific function. A tag is indicated by opening with '<' and is closed with '/>' For example the 'a'tag creates a link that takes you to another page., while the 'h1' tage creates a bold header/ ";
+    document.getElementById("test").innerHTML = "HTML consist of 'tags', where each tag has a specific function. A tag is indicated by opening with '<' and is closed with '/>' For example the 'a'tag creates a link that takes you to another page., while the 'h1' tage creates a bold header. ";
 }
