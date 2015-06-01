@@ -2,7 +2,7 @@ function Main(){
     document.getElementById("test").innerHTML ="<p>What is coding? Well computers only print out what is called 'binary'. Binary consists of two chracters:'1' and '0'. However instead of just writing ones and zeroes, a group of people decided that do come up with a faster way to translate english into binary. This is the fundametal basics of coding.<Br> <img src = 'https://rmhighercomputing.files.wordpress.com/2011/10/binary.png' width = '300px'></p><p>The picture above is a joke because 10 in binary is actualy two.</p> <br> <p>Coding can't be defined as one universal language because their are so many form that make it harder to define </p>";
 }
 function Main2(){
-    document.getElementById("test").innerHTML ="<p>HTML stands for Hypertext markup language and is more or less the core of every casual website on the web. For rookie coders, this is where you start. <br><br> <img src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png' width = '200px'> </p>";
+    document.getElementById("test").innerHTML ="<p>HTML stands for Hypertext markup language and is more or less the core of every casual website on the web. For rookie coders, this is where you start. <br><br> <img src = 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png' width = '200px'>  <br><button onclick = 'Main10()' id = 'hello'> Next⏩ </button> </p>";
 }
 function Main3(){
     document.getElementById("test").innerHTML ="<p>CSS stands for Cascading style sheets. The main function of CSS is to style HTML and make it look visually appealing </p><br><img src = 'http://coding.smashingmagazine.com/wp-content/uploads/2010/06/browsers-css.jpg' width = '200px'><br> <img src = 'https://docs.google.com/drawings/d/1mtIwSXVMJIcDvcWDXD0-zjOWrNQOfJiy1ksemcNKrNU/pub?w=939&h=700' id = 'hi'>  <button onclick = 'Main5()' id = 'hello'> Next⏩ </button> ";
@@ -24,4 +24,7 @@ function Main8(){
 }
 function Main9(){
     document.getElementById("test").innerHTML = "There are many different programming languages besides the few that I have listed. In fact there are 256 programming languages according to dzone.com. Many are distinct from the other because they focus on different aspects of programming. <br> Some well known other programming languages include Pyhton,Ruby and C# <br> <imgs src = 'http://www.lundalogik.se/files/2015/02/python.jpg' ; width = '100px'><img src = 'http://allisnow.com/images/themes/logos/computer-programming-languages/w/php-logo.png'; width = '100px'><br> There are many ways to approach coding and I have only shown a few. I encourage you to try your coding no your own time and see how far you can get. ";
+}
+function Main10(){
+    document.getElementById("test").innerHTML = "HTML consist of 'tags', where each tag has a specific function. A tag is indicated by opening with '<' and is closed with '/>' For example the 'a'tag creates a link that takes you to another page., while the 'h1' tage creates a bold header/ ";
 }
